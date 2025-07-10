@@ -135,7 +135,7 @@ def show_all(contacts):
     for name, phone in contacts.items():
         result += f"{name}: {phone}\n"
     return result.strip()
-def main():
+def main_II():
     contacts = {}
     print("Welcome to the assistant bot!")
     while True:
@@ -156,5 +156,5 @@ def main():
             print(show_all(contacts))
         else:
             print("Invalid command.")
-if __name__ == "__main__":
-    main()
+if __name__ == "__main_II__":
+    main_II()
